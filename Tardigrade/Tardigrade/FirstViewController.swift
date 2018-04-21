@@ -12,7 +12,6 @@ import UIKit
 
 class FirstViewController: UIViewController {
     
-    @IBOutlet var injuredCountControl: UISlider!
     @IBOutlet var shelterSwitch: UISwitch!
     @IBOutlet var waterSwitch: UISwitch!
     @IBOutlet var peopleCount: UITextField!
@@ -33,7 +32,7 @@ class FirstViewController: UIViewController {
             timestamp: Int(Date().timeIntervalSince1970),
             latitude: 0,
             longitude: 0, // TODO: populate logitude and latitude
-            medicalNeed: Int(injuredCountControl.value),
+            medicalNeed: 0,
             shelter: shelterSwitch.isOn,
             water: waterSwitch.isOn,
             peopleCount: Int(peopleCount.text!)!,
