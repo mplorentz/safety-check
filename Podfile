@@ -10,6 +10,7 @@ target 'Tardigrade' do
   # Pods for Tardigrade
   pod 'CSV.swift'
   pod 'ReachabilitySwift'
+  pod 'IQKeyboardManager'
 
   target 'TardigradeTests' do
     inherit! :search_paths

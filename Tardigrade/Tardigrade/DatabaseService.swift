@@ -146,6 +146,7 @@ class DatabaseService: NSObject, CBCentralManagerDelegate, CBPeripheralDelegate,
             if (didSend) {
                 sendingEOM = false
                 print("sent EOM")
+                return
             } else {
                 return
             }

@@ -1,15 +1,18 @@
 PODS:
   - CSV.swift (2.1.0)
+  - IQKeyboardManager (6.0.2)
   - ReachabilitySwift (4.1.0)
 
 DEPENDENCIES:
   - CSV.swift
+  - IQKeyboardManager
   - ReachabilitySwift
 
 SPEC CHECKSUMS:
   CSV.swift: a24fb11c17875523783fe963592762ff163ef8ea
+  IQKeyboardManager: c49d59e358aeeffaa0280aa305093c2b194d2607
   ReachabilitySwift: 6849231cd4e06559f3b9ef4a97a0a0f96d41e09f
 
-PODFILE CHECKSUM: 23b34faa8f19ffb78f433f37452b97d86d50e4d7
+PODFILE CHECKSUM: e631b9b8b0c49b33686246f82b973ff2dcf99885
 
 COCOAPODS: 1.3.1

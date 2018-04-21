@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3F3ED74FAA748175C0B755B89D6AA13E"
+               BlueprintIdentifier = "3FD41348E08BC3843DEC478506ED9936"
                BuildableName = "Pods_Tardigrade.framework"
                BlueprintName = "Pods-Tardigrade"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -47,7 +47,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3F3ED74FAA748175C0B755B89D6AA13E"
+            BlueprintIdentifier = "3FD41348E08BC3843DEC478506ED9936"
             BuildableName = "Pods_Tardigrade.framework"
             BlueprintName = "Pods-Tardigrade"
             ReferencedContainer = "container:Pods.xcodeproj">
