@@ -1,0 +1,913 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01158E6B1CECA6BD6A29F27870B63A01 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2AF9EC704AAD470CAC8FE0D05A5430B /* SystemConfiguration.framework */; };
+		06CD424B6C9332ECA8B6611A65790A61 /* UnicodeIterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7E4E05D7533DFA7D03CD94D0BC896B /* UnicodeIterator.swift */; };
+		0EF425D49A4B33E2F680F5E3613B5B75 /* CSV.swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9764487400A4C15A2E9504EA301E6A5B /* CSV.swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11E17DC07C8AED1A4C004C1E5B183542 /* Pods-Tardigrade-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CAB315A10404022E3D6568593A8EAF9B /* Pods-Tardigrade-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		13F39CEFB70F12725CC00056E9ACD9C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97D7E984AA2ED06FC886024282B47207 /* Foundation.framework */; };
+		4B860BBF2581BC5040EB3EE7AA8EB275 /* Pods-TardigradeTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B315F9AA124EC1048A8E87D5547AA70 /* Pods-TardigradeTests-dummy.m */; };
+		8DE9691649C1B59B45BFDC1B301E2402 /* Pods-Tardigrade-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 028FC9C669328A9EB36AF2E85CABEB7C /* Pods-Tardigrade-dummy.m */; };
+		9340C5BBE58BA23E7A06FC4753359852 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64D512A2266F85E5500A9C7B5415689 /* Reachability.swift */; };
+		A4A6D67D14920A7DC75399C302A7CE4D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97D7E984AA2ED06FC886024282B47207 /* Foundation.framework */; };
+		AABA9FFA2F8B5EB750534CF809ED424C /* Pods-TardigradeTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D749DEB145886785CF3634DD36209F80 /* Pods-TardigradeTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4B6A63B070B481773BD8C50E57A871A /* ReachabilitySwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C699D92FFBA8F58E98AB9341838F455 /* ReachabilitySwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B748DDD3D89B82ABA82DAFAF3E2E264F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97D7E984AA2ED06FC886024282B47207 /* Foundation.framework */; };
+		D43A62A99476FB3E246EADE126FEC2BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97D7E984AA2ED06FC886024282B47207 /* Foundation.framework */; };
+		D499D034A5081B8E2AA033C3A9ECC2A9 /* ReachabilitySwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B9FE922DE67BDBE9C708ADEA5EAF080F /* ReachabilitySwift-dummy.m */; };
+		DC2F4E052F06FBB0BABB2C5D70151080 /* CSVError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6657CAB6FD3A88C0FCB554459EA07118 /* CSVError.swift */; };
+		E4260B975715217458ADA4921A7D38FF /* CSVReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE39DB0D207454446734DB19D1530ADC /* CSVReader.swift */; };
+		E92236D45CF1F30D03BCF0E9AD880164 /* CSV.swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 82A3FA9E2344D1C0CA91BF7BA615D9BB /* CSV.swift-dummy.m */; };
+		EECE00E699ADC3835910378761E08A72 /* CSV.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CB4494547042F0B43A7F4B61065AE4 /* CSV.swift */; };
+		F0320FDDF2A5B4E9EC3BF353E6757123 /* CSVWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7CAF19726E42F746CC3B5865DB8608 /* CSVWriter.swift */; };
+		F18F810EABAADB1D13FC1B839A02EB92 /* Endian.swift in Sources */ = {isa = PBXBuildFile; fileRef = A105F94C9494094C1EECE3B42A55E21A /* Endian.swift */; };
+		F6AC76DAE5FC81A71148C4A093331712 /* BinaryReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC606D971501B3EC45AC80456F95C82 /* BinaryReader.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2A7BA864C01B09074826BD3B5BA49B58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C92C15CC4FDF7CD36CDC68E44A09DC8;
+			remoteInfo = ReachabilitySwift;
+		};
+		9A990B5BFC83D2053F9DCBD3A2D53E64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 701D4F02FAA85F5DE4F688FC7C082624;
+			remoteInfo = CSV.swift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0130BC2E1797BC4D02CCCEE73D633473 /* Pods-TardigradeTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TardigradeTests-frameworks.sh"; sourceTree = "<group>"; };
+		028FC9C669328A9EB36AF2E85CABEB7C /* Pods-Tardigrade-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tardigrade-dummy.m"; sourceTree = "<group>"; };
+		1BCBF25ED01DF6BEBEE4D6F576F5C2C0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		234D72FDF92C5A0325ACE482FDEB237E /* CSV.swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CSV.swift.xcconfig; sourceTree = "<group>"; };
+		23E553B1EB1F573AD66CEF8C96550063 /* Pods-Tardigrade-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tardigrade-frameworks.sh"; sourceTree = "<group>"; };
+		25DF4FEF82600CC9963FD4F1EDED2805 /* Pods-TardigradeTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TardigradeTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2C699D92FFBA8F58E98AB9341838F455 /* ReachabilitySwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReachabilitySwift-umbrella.h"; sourceTree = "<group>"; };
+		2E48E6D27EAE04048CDCAB1AD1C6284C /* ReachabilitySwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ReachabilitySwift.xcconfig; sourceTree = "<group>"; };
+		304F31E8365918E090B40BD044CD03D2 /* Pods_Tardigrade.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Tardigrade.framework; path = "Pods-Tardigrade.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30A7F4AF7734ADBA33655A7E030B9232 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D21FD28AD22D8C8ADCDD7076794B4EC /* CSV.swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CSV.swift-prefix.pch"; sourceTree = "<group>"; };
+		468EEEFCBAA66AE2B70E1A30659BD103 /* ReachabilitySwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ReachabilitySwift.modulemap; sourceTree = "<group>"; };
+		4B315F9AA124EC1048A8E87D5547AA70 /* Pods-TardigradeTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TardigradeTests-dummy.m"; sourceTree = "<group>"; };
+		60DC3CE660C45AAC3EB5B0B1F6125382 /* CSV.swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = CSV.swift.modulemap; sourceTree = "<group>"; };
+		6657CAB6FD3A88C0FCB554459EA07118 /* CSVError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CSVError.swift; path = Sources/CSVError.swift; sourceTree = "<group>"; };
+		6665891B956C4CA6D4794A1B6677E1F9 /* Pods-Tardigrade.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tardigrade.release.xcconfig"; sourceTree = "<group>"; };
+		82A3FA9E2344D1C0CA91BF7BA615D9BB /* CSV.swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CSV.swift-dummy.m"; sourceTree = "<group>"; };
+		82BB1A6237D41CBB546B1BEE35A24CBD /* Pods-TardigradeTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TardigradeTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		849E11295C2E2E8B9A417906194E316F /* Pods_TardigradeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TardigradeTests.framework; path = "Pods-TardigradeTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		88E4B1750B51E78FC92183E9113FDED4 /* Pods-TardigradeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TardigradeTests.release.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93E9DA0B3C48EE334A1D8ABFA0368D3A /* Pods-TardigradeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TardigradeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9764487400A4C15A2E9504EA301E6A5B /* CSV.swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CSV.swift-umbrella.h"; sourceTree = "<group>"; };
+		97D7E984AA2ED06FC886024282B47207 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		A105F94C9494094C1EECE3B42A55E21A /* Endian.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Endian.swift; path = Sources/Endian.swift; sourceTree = "<group>"; };
+		A9B95E354F4CE09A8470E4FFBE216F45 /* Pods-TardigradeTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TardigradeTests.modulemap"; sourceTree = "<group>"; };
+		AE39DB0D207454446734DB19D1530ADC /* CSVReader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CSVReader.swift; path = Sources/CSVReader.swift; sourceTree = "<group>"; };
+		B9FE922DE67BDBE9C708ADEA5EAF080F /* ReachabilitySwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ReachabilitySwift-dummy.m"; sourceTree = "<group>"; };
+		BEC69A67F5B82675163F7BB1358C4695 /* Reachability.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Reachability.framework; path = ReachabilitySwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3921DD3C6897B9B59919D59AC827EDE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C64D512A2266F85E5500A9C7B5415689 /* Reachability.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Reachability.swift; path = Reachability/Reachability.swift; sourceTree = "<group>"; };
+		CA7E4E05D7533DFA7D03CD94D0BC896B /* UnicodeIterator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnicodeIterator.swift; path = Sources/UnicodeIterator.swift; sourceTree = "<group>"; };
+		CAB315A10404022E3D6568593A8EAF9B /* Pods-Tardigrade-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tardigrade-umbrella.h"; sourceTree = "<group>"; };
+		D40121A0D023510BFE51ED80B8AE7220 /* Pods-TardigradeTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TardigradeTests-resources.sh"; sourceTree = "<group>"; };
+		D749DEB145886785CF3634DD36209F80 /* Pods-TardigradeTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TardigradeTests-umbrella.h"; sourceTree = "<group>"; };
+		D81AAD615BA90DBD8F33DAC3590571B7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8CB4494547042F0B43A7F4B61065AE4 /* CSV.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CSV.swift; path = Sources/CSV.swift; sourceTree = "<group>"; };
+		DCC606D971501B3EC45AC80456F95C82 /* BinaryReader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BinaryReader.swift; path = Sources/BinaryReader.swift; sourceTree = "<group>"; };
+		E325C55D89D0FC6EC750BCC579A71E93 /* Pods-Tardigrade-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tardigrade-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E66F1F6F1C574FA152F129A8F5E5D5AF /* Pods-Tardigrade.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Tardigrade.modulemap"; sourceTree = "<group>"; };
+		EE7CAF19726E42F746CC3B5865DB8608 /* CSVWriter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CSVWriter.swift; path = Sources/CSVWriter.swift; sourceTree = "<group>"; };
+		F0215FCED653E06A7AE59FDACC67D583 /* Pods-Tardigrade-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tardigrade-acknowledgements.plist"; sourceTree = "<group>"; };
+		F2AF9EC704AAD470CAC8FE0D05A5430B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		F2D693C1FB09225AE5A6B052EF27B27F /* Pods-Tardigrade-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tardigrade-resources.sh"; sourceTree = "<group>"; };
+		F4B36A7F26A8F2D00734A234451DA42E /* ReachabilitySwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReachabilitySwift-prefix.pch"; sourceTree = "<group>"; };
+		F9C1A45ABAABFB6154DD47E2E107CB88 /* Pods-Tardigrade.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tardigrade.debug.xcconfig"; sourceTree = "<group>"; };
+		FE646D6485A970786FBA4D35B9EFB507 /* CSV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CSV.framework; path = CSV.swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		654EC330BDDD03B3071413BF53C90CDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B748DDD3D89B82ABA82DAFAF3E2E264F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		998352BAD75D4F0068B86EC95CA2E79C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D43A62A99476FB3E246EADE126FEC2BD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2FB90D3A81217D848050F47053CDA86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4A6D67D14920A7DC75399C302A7CE4D /* Foundation.framework in Frameworks */,
+				01158E6B1CECA6BD6A29F27870B63A01 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F95C2B2EBD1FF4EB0EE0635C304F9D80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13F39CEFB70F12725CC00056E9ACD9C6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A68FECAA944B63754BF22AD9717AA4B /* Pods-Tardigrade */ = {
+			isa = PBXGroup;
+			children = (
+				C3921DD3C6897B9B59919D59AC827EDE /* Info.plist */,
+				E66F1F6F1C574FA152F129A8F5E5D5AF /* Pods-Tardigrade.modulemap */,
+				E325C55D89D0FC6EC750BCC579A71E93 /* Pods-Tardigrade-acknowledgements.markdown */,
+				F0215FCED653E06A7AE59FDACC67D583 /* Pods-Tardigrade-acknowledgements.plist */,
+				028FC9C669328A9EB36AF2E85CABEB7C /* Pods-Tardigrade-dummy.m */,
+				23E553B1EB1F573AD66CEF8C96550063 /* Pods-Tardigrade-frameworks.sh */,
+				F2D693C1FB09225AE5A6B052EF27B27F /* Pods-Tardigrade-resources.sh */,
+				CAB315A10404022E3D6568593A8EAF9B /* Pods-Tardigrade-umbrella.h */,
+				F9C1A45ABAABFB6154DD47E2E107CB88 /* Pods-Tardigrade.debug.xcconfig */,
+				6665891B956C4CA6D4794A1B6677E1F9 /* Pods-Tardigrade.release.xcconfig */,
+			);
+			name = "Pods-Tardigrade";
+			path = "Target Support Files/Pods-Tardigrade";
+			sourceTree = "<group>";
+		};
+		36637D926C39DCEED37F0469BC122382 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				30A7F4AF7734ADBA33655A7E030B9232 /* Info.plist */,
+				468EEEFCBAA66AE2B70E1A30659BD103 /* ReachabilitySwift.modulemap */,
+				2E48E6D27EAE04048CDCAB1AD1C6284C /* ReachabilitySwift.xcconfig */,
+				B9FE922DE67BDBE9C708ADEA5EAF080F /* ReachabilitySwift-dummy.m */,
+				F4B36A7F26A8F2D00734A234451DA42E /* ReachabilitySwift-prefix.pch */,
+				2C699D92FFBA8F58E98AB9341838F455 /* ReachabilitySwift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ReachabilitySwift";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E7E283C74B7E79D37D9BAAFF277942F5 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4C8CD435A53D21FE1D8B714A6E913A12 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE646D6485A970786FBA4D35B9EFB507 /* CSV.framework */,
+				304F31E8365918E090B40BD044CD03D2 /* Pods_Tardigrade.framework */,
+				849E11295C2E2E8B9A417906194E316F /* Pods_TardigradeTests.framework */,
+				BEC69A67F5B82675163F7BB1358C4695 /* Reachability.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52C606E36A896990E8873CC21B4BC9E5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7DC10C87B171C2BB2FFF31F483A04578 /* CSV.swift */,
+				91565996FC6BF4C0B1B8A745BAA40930 /* ReachabilitySwift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		790AA5B738D12DE1A8EE966561684492 /* Pods-TardigradeTests */ = {
+			isa = PBXGroup;
+			children = (
+				1BCBF25ED01DF6BEBEE4D6F576F5C2C0 /* Info.plist */,
+				A9B95E354F4CE09A8470E4FFBE216F45 /* Pods-TardigradeTests.modulemap */,
+				25DF4FEF82600CC9963FD4F1EDED2805 /* Pods-TardigradeTests-acknowledgements.markdown */,
+				82BB1A6237D41CBB546B1BEE35A24CBD /* Pods-TardigradeTests-acknowledgements.plist */,
+				4B315F9AA124EC1048A8E87D5547AA70 /* Pods-TardigradeTests-dummy.m */,
+				0130BC2E1797BC4D02CCCEE73D633473 /* Pods-TardigradeTests-frameworks.sh */,
+				D40121A0D023510BFE51ED80B8AE7220 /* Pods-TardigradeTests-resources.sh */,
+				D749DEB145886785CF3634DD36209F80 /* Pods-TardigradeTests-umbrella.h */,
+				93E9DA0B3C48EE334A1D8ABFA0368D3A /* Pods-TardigradeTests.debug.xcconfig */,
+				88E4B1750B51E78FC92183E9113FDED4 /* Pods-TardigradeTests.release.xcconfig */,
+			);
+			name = "Pods-TardigradeTests";
+			path = "Target Support Files/Pods-TardigradeTests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				52C606E36A896990E8873CC21B4BC9E5 /* Pods */,
+				4C8CD435A53D21FE1D8B714A6E913A12 /* Products */,
+				E9AF07456A6E44D2AACE1B2FADA4A438 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7DC10C87B171C2BB2FFF31F483A04578 /* CSV.swift */ = {
+			isa = PBXGroup;
+			children = (
+				DCC606D971501B3EC45AC80456F95C82 /* BinaryReader.swift */,
+				D8CB4494547042F0B43A7F4B61065AE4 /* CSV.swift */,
+				6657CAB6FD3A88C0FCB554459EA07118 /* CSVError.swift */,
+				AE39DB0D207454446734DB19D1530ADC /* CSVReader.swift */,
+				EE7CAF19726E42F746CC3B5865DB8608 /* CSVWriter.swift */,
+				A105F94C9494094C1EECE3B42A55E21A /* Endian.swift */,
+				CA7E4E05D7533DFA7D03CD94D0BC896B /* UnicodeIterator.swift */,
+				824FA0E3925264C291CBEFF177CE5565 /* Support Files */,
+			);
+			name = CSV.swift;
+			path = CSV.swift;
+			sourceTree = "<group>";
+		};
+		824FA0E3925264C291CBEFF177CE5565 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				60DC3CE660C45AAC3EB5B0B1F6125382 /* CSV.swift.modulemap */,
+				234D72FDF92C5A0325ACE482FDEB237E /* CSV.swift.xcconfig */,
+				82A3FA9E2344D1C0CA91BF7BA615D9BB /* CSV.swift-dummy.m */,
+				3D21FD28AD22D8C8ADCDD7076794B4EC /* CSV.swift-prefix.pch */,
+				9764487400A4C15A2E9504EA301E6A5B /* CSV.swift-umbrella.h */,
+				D81AAD615BA90DBD8F33DAC3590571B7 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CSV.swift";
+			sourceTree = "<group>";
+		};
+		91565996FC6BF4C0B1B8A745BAA40930 /* ReachabilitySwift */ = {
+			isa = PBXGroup;
+			children = (
+				C64D512A2266F85E5500A9C7B5415689 /* Reachability.swift */,
+				36637D926C39DCEED37F0469BC122382 /* Support Files */,
+			);
+			name = ReachabilitySwift;
+			path = ReachabilitySwift;
+			sourceTree = "<group>";
+		};
+		E7E283C74B7E79D37D9BAAFF277942F5 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				97D7E984AA2ED06FC886024282B47207 /* Foundation.framework */,
+				F2AF9EC704AAD470CAC8FE0D05A5430B /* SystemConfiguration.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E9AF07456A6E44D2AACE1B2FADA4A438 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A68FECAA944B63754BF22AD9717AA4B /* Pods-Tardigrade */,
+				790AA5B738D12DE1A8EE966561684492 /* Pods-TardigradeTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3F9A2CFC356754414C2D18A8F07F3320 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EF425D49A4B33E2F680F5E3613B5B75 /* CSV.swift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84294678D60F0EA8B4892899A13F533D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4B6A63B070B481773BD8C50E57A871A /* ReachabilitySwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		939C4E61FF6DB90461B62A6C6446799B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AABA9FFA2F8B5EB750534CF809ED424C /* Pods-TardigradeTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9532304EA5A5E61000DFEA821BF1E6B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11E17DC07C8AED1A4C004C1E5B183542 /* Pods-Tardigrade-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3F3ED74FAA748175C0B755B89D6AA13E /* Pods-Tardigrade */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC909D5D224E6B80DC3387AA96A7A26C /* Build configuration list for PBXNativeTarget "Pods-Tardigrade" */;
+			buildPhases = (
+				10C009BA45FDC5DFCA072FF97B04A3D7 /* Sources */,
+				F95C2B2EBD1FF4EB0EE0635C304F9D80 /* Frameworks */,
+				A9532304EA5A5E61000DFEA821BF1E6B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				878996DE7B59EECDCC1A3584AA13D7AC /* PBXTargetDependency */,
+				B8A5D8EF9E4BC3F6693C6C54AAB4A862 /* PBXTargetDependency */,
+			);
+			name = "Pods-Tardigrade";
+			productName = "Pods-Tardigrade";
+			productReference = 304F31E8365918E090B40BD044CD03D2 /* Pods_Tardigrade.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4C92C15CC4FDF7CD36CDC68E44A09DC8 /* ReachabilitySwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 357AA75485E004D4C11F328D24DA5732 /* Build configuration list for PBXNativeTarget "ReachabilitySwift" */;
+			buildPhases = (
+				22BE3242A71307428114ADFEFF7D8803 /* Sources */,
+				A2FB90D3A81217D848050F47053CDA86 /* Frameworks */,
+				84294678D60F0EA8B4892899A13F533D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReachabilitySwift;
+			productName = ReachabilitySwift;
+			productReference = BEC69A67F5B82675163F7BB1358C4695 /* Reachability.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		701D4F02FAA85F5DE4F688FC7C082624 /* CSV.swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 377FE12DC67FA05D7477B8FC587BCBC0 /* Build configuration list for PBXNativeTarget "CSV.swift" */;
+			buildPhases = (
+				B9174E2573303B665560255A43590020 /* Sources */,
+				654EC330BDDD03B3071413BF53C90CDA /* Frameworks */,
+				3F9A2CFC356754414C2D18A8F07F3320 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CSV.swift;
+			productName = CSV.swift;
+			productReference = FE646D6485A970786FBA4D35B9EFB507 /* CSV.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7B81EFA22890A53E2F40788616C0A9FA /* Pods-TardigradeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D92DA31E663675FDF2B46B0DBA7CC850 /* Build configuration list for PBXNativeTarget "Pods-TardigradeTests" */;
+			buildPhases = (
+				DDFE9106F153E3CE19F8D42C931D1024 /* Sources */,
+				998352BAD75D4F0068B86EC95CA2E79C /* Frameworks */,
+				939C4E61FF6DB90461B62A6C6446799B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TardigradeTests";
+			productName = "Pods-TardigradeTests";
+			productReference = 849E11295C2E2E8B9A417906194E316F /* Pods_TardigradeTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 4C8CD435A53D21FE1D8B714A6E913A12 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				701D4F02FAA85F5DE4F688FC7C082624 /* CSV.swift */,
+				3F3ED74FAA748175C0B755B89D6AA13E /* Pods-Tardigrade */,
+				7B81EFA22890A53E2F40788616C0A9FA /* Pods-TardigradeTests */,
+				4C92C15CC4FDF7CD36CDC68E44A09DC8 /* ReachabilitySwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10C009BA45FDC5DFCA072FF97B04A3D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DE9691649C1B59B45BFDC1B301E2402 /* Pods-Tardigrade-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22BE3242A71307428114ADFEFF7D8803 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9340C5BBE58BA23E7A06FC4753359852 /* Reachability.swift in Sources */,
+				D499D034A5081B8E2AA033C3A9ECC2A9 /* ReachabilitySwift-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9174E2573303B665560255A43590020 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6AC76DAE5FC81A71148C4A093331712 /* BinaryReader.swift in Sources */,
+				EECE00E699ADC3835910378761E08A72 /* CSV.swift in Sources */,
+				E92236D45CF1F30D03BCF0E9AD880164 /* CSV.swift-dummy.m in Sources */,
+				DC2F4E052F06FBB0BABB2C5D70151080 /* CSVError.swift in Sources */,
+				E4260B975715217458ADA4921A7D38FF /* CSVReader.swift in Sources */,
+				F0320FDDF2A5B4E9EC3BF353E6757123 /* CSVWriter.swift in Sources */,
+				F18F810EABAADB1D13FC1B839A02EB92 /* Endian.swift in Sources */,
+				06CD424B6C9332ECA8B6611A65790A61 /* UnicodeIterator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDFE9106F153E3CE19F8D42C931D1024 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B860BBF2581BC5040EB3EE7AA8EB275 /* Pods-TardigradeTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		878996DE7B59EECDCC1A3584AA13D7AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CSV.swift;
+			target = 701D4F02FAA85F5DE4F688FC7C082624 /* CSV.swift */;
+			targetProxy = 9A990B5BFC83D2053F9DCBD3A2D53E64 /* PBXContainerItemProxy */;
+		};
+		B8A5D8EF9E4BC3F6693C6C54AAB4A862 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ReachabilitySwift;
+			target = 4C92C15CC4FDF7CD36CDC68E44A09DC8 /* ReachabilitySwift */;
+			targetProxy = 2A7BA864C01B09074826BD3B5BA49B58 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		093034FF12AC0B8B64CEA31500E9FC1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E48E6D27EAE04048CDCAB1AD1C6284C /* ReachabilitySwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ReachabilitySwift/ReachabilitySwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ReachabilitySwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ReachabilitySwift/ReachabilitySwift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Reachability;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		95C585383A570C8A2A2A02551034D052 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 234D72FDF92C5A0325ACE482FDEB237E /* CSV.swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CSV.swift/CSV.swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CSV.swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CSV.swift/CSV.swift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = CSV;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		97BE8BA5E0C056EA7AB983B04E7DAF3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6665891B956C4CA6D4794A1B6677E1F9 /* Pods-Tardigrade.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Tardigrade/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Tardigrade/Pods-Tardigrade.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Tardigrade;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ABC1C622E3A94D5EFA80B6DBB5E64193 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B24277642A2093ED136AC1E12DB36819 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9C1A45ABAABFB6154DD47E2E107CB88 /* Pods-Tardigrade.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Tardigrade/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Tardigrade/Pods-Tardigrade.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Tardigrade;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D72E489B59C3A70112D2342F402BD262 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D97A08C8DCE88A28C34B337F13D6A858 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88E4B1750B51E78FC92183E9113FDED4 /* Pods-TardigradeTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TardigradeTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TardigradeTests/Pods-TardigradeTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TardigradeTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E6A2EB4A2F62A6B01AACECEEC494609E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93E9DA0B3C48EE334A1D8ABFA0368D3A /* Pods-TardigradeTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TardigradeTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TardigradeTests/Pods-TardigradeTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TardigradeTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E96A4969D9D3622BC80183850ED2CE8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E48E6D27EAE04048CDCAB1AD1C6284C /* ReachabilitySwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ReachabilitySwift/ReachabilitySwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ReachabilitySwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ReachabilitySwift/ReachabilitySwift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Reachability;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EDB25A0FEF92D833194FFF81EEA7F21F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 234D72FDF92C5A0325ACE482FDEB237E /* CSV.swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CSV.swift/CSV.swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CSV.swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CSV.swift/CSV.swift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = CSV;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D72E489B59C3A70112D2342F402BD262 /* Debug */,
+				ABC1C622E3A94D5EFA80B6DBB5E64193 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		357AA75485E004D4C11F328D24DA5732 /* Build configuration list for PBXNativeTarget "ReachabilitySwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E96A4969D9D3622BC80183850ED2CE8C /* Debug */,
+				093034FF12AC0B8B64CEA31500E9FC1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		377FE12DC67FA05D7477B8FC587BCBC0 /* Build configuration list for PBXNativeTarget "CSV.swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95C585383A570C8A2A2A02551034D052 /* Debug */,
+				EDB25A0FEF92D833194FFF81EEA7F21F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D92DA31E663675FDF2B46B0DBA7CC850 /* Build configuration list for PBXNativeTarget "Pods-TardigradeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6A2EB4A2F62A6B01AACECEEC494609E /* Debug */,
+				D97A08C8DCE88A28C34B337F13D6A858 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC909D5D224E6B80DC3387AA96A7A26C /* Build configuration list for PBXNativeTarget "Pods-Tardigrade" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B24277642A2093ED136AC1E12DB36819 /* Debug */,
+				97BE8BA5E0C056EA7AB983B04E7DAF3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

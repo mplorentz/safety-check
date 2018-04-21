@@ -15,7 +15,23 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        let path = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)[0] as String
+        let url = NSURL(fileURLWithPath: path)
+        if let pathComponent = url.appendingPathComponent("database.csv") {
+            let filePath = pathComponent.path
+            let fileManager = FileManager.default
+            if fileManager.fileExists(atPath: filePath) {
+                // do nothing
+            } else {
+                print(fileManager.createFile(atPath: filePath, contents: Data(), attributes: [:]))
+            }
+            
+            DatabaseService().startSyncing()
+        } else {
+            print("FILE PATH NOT AVAILABLE. DATABASE SERVICE NOT STARTED")
+        }
+        
         return true
     }
 

@@ -1,0 +1,6 @@
+framework module Pods_Tardigrade {
+  umbrella header "Pods-Tardigrade-umbrella.h"
+
+  export *
+  module * { export * }
+}

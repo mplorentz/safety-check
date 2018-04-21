@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2465D8B5699EB51A48C3511C /* Pods_Tardigrade.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4A49EF4E1CC9E89393E1B66 /* Pods_Tardigrade.framework */; };
+		4D83024DDC14111E110A767B /* Pods_TardigradeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF9F6E73E4902E0998B1F4C2 /* Pods_TardigradeTests.framework */; };
 		C973FCBA208B696A0010E404 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C973FCB9208B696A0010E404 /* AppDelegate.swift */; };
 		C973FCBC208B696A0010E404 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C973FCBB208B696A0010E404 /* FirstViewController.swift */; };
 		C973FCBE208B696A0010E404 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C973FCBD208B696A0010E404 /* SecondViewController.swift */; };
@@ -14,6 +16,8 @@
 		C973FCC3208B696A0010E404 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C973FCC2208B696A0010E404 /* Assets.xcassets */; };
 		C973FCC6208B696A0010E404 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C973FCC4208B696A0010E404 /* LaunchScreen.storyboard */; };
 		C973FCD1208B696B0010E404 /* TardigradeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C973FCD0208B696B0010E404 /* TardigradeTests.swift */; };
+		C9AC795D208B7E4500C93507 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AC795C208B7E4500C93507 /* Database.swift */; };
+		C9E40EC8208BA214006A25BE /* DatabaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E40EC7208BA214006A25BE /* DatabaseService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +31,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2430AC097253E6E42DA2D9B4 /* Pods-Tardigrade.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tardigrade.release.xcconfig"; path = "../Pods/Target Support Files/Pods-Tardigrade/Pods-Tardigrade.release.xcconfig"; sourceTree = "<group>"; };
+		59AD8B35676D99012B23B7DD /* Pods-TardigradeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TardigradeTests.release.xcconfig"; path = "../Pods/Target Support Files/Pods-TardigradeTests/Pods-TardigradeTests.release.xcconfig"; sourceTree = "<group>"; };
+		745C86DC3C93C2B9F8AF9F0E /* Pods-Tardigrade.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tardigrade.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-Tardigrade/Pods-Tardigrade.debug.xcconfig"; sourceTree = "<group>"; };
+		AF9F6E73E4902E0998B1F4C2 /* Pods_TardigradeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TardigradeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4A49EF4E1CC9E89393E1B66 /* Pods_Tardigrade.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tardigrade.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C973FCB6208B696A0010E404 /* Tardigrade.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tardigrade.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C973FCB9208B696A0010E404 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C973FCBB208B696A0010E404 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -38,6 +47,10 @@
 		C973FCCC208B696B0010E404 /* TardigradeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TardigradeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C973FCD0208B696B0010E404 /* TardigradeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TardigradeTests.swift; sourceTree = "<group>"; };
 		C973FCD2208B696B0010E404 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9AC795C208B7E4500C93507 /* Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
+		C9AC795E208B820F00C93507 /* Tardigrade-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tardigrade-Bridging-Header.h"; sourceTree = "<group>"; };
+		C9E40EC7208BA214006A25BE /* DatabaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseService.swift; sourceTree = "<group>"; };
+		DFB4EE0EE644EB843682F380 /* Pods-TardigradeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TardigradeTests.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-TardigradeTests/Pods-TardigradeTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2465D8B5699EB51A48C3511C /* Pods_Tardigrade.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,18 +66,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D83024DDC14111E110A767B /* Pods_TardigradeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		94C8CF23D8226A3BD82026C4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				745C86DC3C93C2B9F8AF9F0E /* Pods-Tardigrade.debug.xcconfig */,
+				2430AC097253E6E42DA2D9B4 /* Pods-Tardigrade.release.xcconfig */,
+				DFB4EE0EE644EB843682F380 /* Pods-TardigradeTests.debug.xcconfig */,
+				59AD8B35676D99012B23B7DD /* Pods-TardigradeTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C973FCAD208B696A0010E404 = {
 			isa = PBXGroup;
 			children = (
 				C973FCB8208B696A0010E404 /* Tardigrade */,
 				C973FCCF208B696B0010E404 /* TardigradeTests */,
 				C973FCB7208B696A0010E404 /* Products */,
+				94C8CF23D8226A3BD82026C4 /* Pods */,
+				EFF1C6DCD1B8DB83164693B8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -80,7 +108,10 @@
 			isa = PBXGroup;
 			children = (
 				C973FCB9208B696A0010E404 /* AppDelegate.swift */,
+				C9E40EC7208BA214006A25BE /* DatabaseService.swift */,
 				C973FCBB208B696A0010E404 /* FirstViewController.swift */,
+				C9AC795C208B7E4500C93507 /* Database.swift */,
+				C9AC795E208B820F00C93507 /* Tardigrade-Bridging-Header.h */,
 				C973FCBD208B696A0010E404 /* SecondViewController.swift */,
 				C973FCBF208B696A0010E404 /* Main.storyboard */,
 				C973FCC2208B696A0010E404 /* Assets.xcassets */,
@@ -99,6 +130,15 @@
 			path = TardigradeTests;
 			sourceTree = "<group>";
 		};
+		EFF1C6DCD1B8DB83164693B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B4A49EF4E1CC9E89393E1B66 /* Pods_Tardigrade.framework */,
+				AF9F6E73E4902E0998B1F4C2 /* Pods_TardigradeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +146,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C973FCD5208B696B0010E404 /* Build configuration list for PBXNativeTarget "Tardigrade" */;
 			buildPhases = (
+				AA3EF03F2389F11030EFD1F7 /* [CP] Check Pods Manifest.lock */,
 				C973FCB2208B696A0010E404 /* Sources */,
 				C973FCB3208B696A0010E404 /* Frameworks */,
 				C973FCB4208B696A0010E404 /* Resources */,
+				42336BB046604F9BB6838ABE /* [CP] Embed Pods Frameworks */,
+				52D32508DE789116E143ED4D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,9 +166,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C973FCD8208B696B0010E404 /* Build configuration list for PBXNativeTarget "TardigradeTests" */;
 			buildPhases = (
+				107A50A432910C0E3640803E /* [CP] Check Pods Manifest.lock */,
 				C973FCC8208B696B0010E404 /* Sources */,
 				C973FCC9208B696B0010E404 /* Frameworks */,
 				C973FCCA208B696B0010E404 /* Resources */,
+				66E6A940975F1130E98663C8 /* [CP] Embed Pods Frameworks */,
+				E068BE40A0F7E4CCB03285CD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -197,13 +243,119 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		107A50A432910C0E3640803E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TardigradeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		42336BB046604F9BB6838ABE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/../Pods/Target Support Files/Pods-Tardigrade/Pods-Tardigrade-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CSV.swift/CSV.framework",
+				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CSV.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-Tardigrade/Pods-Tardigrade-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		52D32508DE789116E143ED4D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-Tardigrade/Pods-Tardigrade-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66E6A940975F1130E98663C8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-TardigradeTests/Pods-TardigradeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA3EF03F2389F11030EFD1F7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tardigrade-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E068BE40A0F7E4CCB03285CD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-TardigradeTests/Pods-TardigradeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C973FCB2208B696A0010E404 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C973FCBE208B696A0010E404 /* SecondViewController.swift in Sources */,
+				C9E40EC8208BA214006A25BE /* DatabaseService.swift in Sources */,
 				C973FCBA208B696A0010E404 /* AppDelegate.swift in Sources */,
+				C9AC795D208B7E4500C93507 /* Database.swift in Sources */,
 				C973FCBC208B696A0010E404 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -355,13 +507,17 @@
 		};
 		C973FCD6208B696B0010E404 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 745C86DC3C93C2B9F8AF9F0E /* Pods-Tardigrade.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S2FZ788KSW;
 				INFOPLIST_FILE = Tardigrade/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mattlorentz.Tardigrade;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Tardigrade/Tardigrade-Bridging-Header.h";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = YES;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -369,13 +525,17 @@
 		};
 		C973FCD7208B696B0010E404 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2430AC097253E6E42DA2D9B4 /* Pods-Tardigrade.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S2FZ788KSW;
 				INFOPLIST_FILE = Tardigrade/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mattlorentz.Tardigrade;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Tardigrade/Tardigrade-Bridging-Header.h";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = YES;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -383,6 +543,7 @@
 		};
 		C973FCD9208B696B0010E404 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFB4EE0EE644EB843682F380 /* Pods-TardigradeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -399,6 +560,7 @@
 		};
 		C973FCDA208B696B0010E404 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59AD8B35676D99012B23B7DD /* Pods-TardigradeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
